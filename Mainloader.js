@@ -49,7 +49,8 @@ this.ball.style.animation=`${this.animationName} ${this.time}s infinite ${this.a
    } 
    closeWhenDone(){
        addEventListener("DOMContentLoaded",()=>{
-    this.loads.style.display="none"
+setTimeout(()=>{
+    this.loads.style.display="none"},3)
 });
    }
    closeCountDown(s){
