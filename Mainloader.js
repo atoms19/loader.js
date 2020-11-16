@@ -52,7 +52,7 @@ this.ball.style.animation=`${this.animationName} ${this.time}s infinite ${this.a
     this.loads.style.display="none"
 });
    }
-   CloseCountDown(s){
+   closeCountDown(s){
 setTimeout(()=>{
 this.loads.style.display="none"
 },s)
