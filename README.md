@@ -14,11 +14,12 @@ you can Use these Scripts to include `loader.js` or `loader.min.js` in your html
 
 # How To Use
 
-Create a new loader object and call the activate method to activate the loader
+Create a new loader object and call the ```activate();``` method to activate the loader.
 
 ```javascript
 var loader=new Loader("red",5,"white");
-loder.activate(); 
+loder.activate();
+//Activating the loader
 ```
 Loader object takes ***3*** parameters 
 ```javascript
@@ -37,6 +38,7 @@ The third argument is the `Backdrop Color` of the loader.
 var loader=new Loader("red",5,"white");
 laoder.activate();
 loader.closeWhenDone();
+//This will automatically close the loader when page loads
 ```
 To close the loader automatically use `closeWhenDone();` method.
 
@@ -46,6 +48,7 @@ To close the loader automatically use `closeWhenDone();` method.
 var loader=new Loader("red",5,"white");
 laoder.activate();
 loader.closeCountDown(5000);
+//It will stop the loader after 5 seconds
 ```
 `closeCountDown();` method takes a number as a parameter and Stops the loader after that time.
 
