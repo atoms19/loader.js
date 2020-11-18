@@ -14,7 +14,7 @@ you can Use these Scripts to include `loader.js` or `loader.min.js` in your html
 
 # How To Use
 
-Create a new loader object and call the ```activate();``` method to activate the loader.
+Create a new loader object and call the `activate();` method to activate the loader.
 
 ```javascript
 var loader=new Loader("red",5,"white");
@@ -53,3 +53,7 @@ loader.closeCountDown(5000);
 `closeCountDown();` method takes a number as a parameter and Stops the loader after that time.
 
 ***Note:*** Time is in milliseconds.
+# More Controls
+```javascript
+
+```
