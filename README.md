@@ -12,3 +12,14 @@ you can get the library by copying and pasting the CDN link inside the script ta
 <script src="https://rawcdn.githack.com/atoms19/loader.js/main/dist/loader.min.js"></script>
   
 ```
+
+# How To Use
+
+Create a new loader object and call the activate method to activate the loader
+
+```javascript
+var lod=new Loader("red",5,"white");
+
+lod.activate(); 
+```
+
