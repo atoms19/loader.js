@@ -10,7 +10,6 @@ you can Use these Scripts to include `loader.js` or `loader.min.js` in your html
 ```html
 <script src="https://rawcdn.githack.com/atoms19/loader.js/main/dist/loader.js"></script>
 <script src="https://rawcdn.githack.com/atoms19/loader.js/main/dist/loader.min.js"></script>
-  
 ```
 
 # How To Use
