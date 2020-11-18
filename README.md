@@ -23,4 +23,6 @@ var loder=new Loader("red",5,"white");
 loder.activate(); 
 ```
 Loader object takes ***3*** parameters
-`new Loader(loaderColor, LoaderThickness, Background Color);`
+```javascript
+new Loader(loaderColor, LoaderThickness, Background Color);`
+```
