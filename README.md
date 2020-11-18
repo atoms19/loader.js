@@ -55,5 +55,7 @@ loader.closeCountDown(5000);
 ***Note:*** Time is in milliseconds.
 # More Controls
 ```javascript
+var loader=new Loader("red",5,"white");
+
 
 ```
