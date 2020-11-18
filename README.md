@@ -5,7 +5,7 @@ loader.js is a simple js library that can let you make your own loading screen a
 
 # Getting The Library
 
-you can get the library by copying and pasting the CDN link inside the script tag as the source(src)
+you can Use these Scripts to include `loader.js` or `loader.min.js` in your html.
 
 ```html
 <script src="https://rawcdn.githack.com/atoms19/loader.js/main/dist/loader.js"></script>
