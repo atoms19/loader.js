@@ -23,7 +23,7 @@ loder.activate();
 ```
 Loader object takes ***3*** parameters 
 ```javascript
-new Loader(String, Number, String);`
+new Loader(String, Number, String);
 ```
 The first argument is the `Color` of the loader.
 
