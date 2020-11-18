@@ -23,8 +23,14 @@ loder.activate();
 ```
 Loader object takes ***3*** parameters 
 ```javascript
-new Loader(Loader Color, LoaderThickness, Background Color);`
+new Loader(String, Number, String);`
 ```
+The first argument is the `Color` of the loader.
+
+The second argument is the `Thickness` of the loader.(Its value is determined in PXs)
+
+The third argument is the `Backdrop Color` of the loader.
+
 # Stopping The Loader
 
 ## Auto Close When page Loads
@@ -33,6 +39,8 @@ var loader=new Loader("red",5,"white");
 laoder.activate();
 loader.closeWhenDone();
 ```
+To close the loader automatically use `closeWhenDone();` method.
+
 ## Stoping Manually
 
 ```javascript
