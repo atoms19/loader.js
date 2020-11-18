@@ -18,7 +18,7 @@ Create a new loader object and call the ```activate();``` method to activate the
 
 ```javascript
 var loader=new Loader("red",5,"white");
-loder.activate();
+loader.activate();
 //Activating the loader
 ```
 Loader object takes ***3*** parameters 
