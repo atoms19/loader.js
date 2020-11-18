@@ -32,7 +32,7 @@ The third argument is the `Backdrop Color` of the loader.
 
 # Stopping The Loader
 
-## Auto Close When page Loads
+## Auto Close the Loader When page Loads
 ```javascript
 var loader=new Loader("red",5,"white");
 laoder.activate();
