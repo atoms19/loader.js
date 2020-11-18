@@ -18,8 +18,9 @@ you can get the library by copying and pasting the CDN link inside the script ta
 Create a new loader object and call the activate method to activate the loader
 
 ```javascript
-var lod=new Loader("red",5,"white");
+var loder=new Loader("red",5,"white");
 
-lod.activate(); 
+loder.activate(); 
 ```
-
+Loader object takes ***3*** parameters
+`new Loader(loaderColor, LoaderThickness, Background Color);`
