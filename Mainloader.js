@@ -4,7 +4,7 @@ class Loader{
         this.thickness=typ || 10;
         this.bgcolor=bg || "white";
         this.time=1;
-        this.size=70;
+        this.size=80;
         this.animation="linear";
         this.animationName="spinner";
     }
