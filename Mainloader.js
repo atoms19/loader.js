@@ -1,8 +1,8 @@
 class Loader{
     constructor(c,typ,bg){
-        this.color=c;
-        this.thickness=typ;
-        this.bgcolor=bg;
+        this.color=c || "dodgerblue";
+        this.thickness=typ || 10;
+        this.bgcolor=bg || "white";
         this.time=1;
         this.size=70;
         this.animation="linear";
