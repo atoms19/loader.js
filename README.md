@@ -57,5 +57,16 @@ loader.closeCountDown(5000);
 ```javascript
 var loader=new Loader("red",5,"white");
 
-
+this.color="dodgerblue";
+//The default value for color is "dodgerblue"
+this.thickness=10;
+//The default value for thickness is 10
+this.bgcolor="white";
+//The default value for bgcolor is "white"
+this.time=1;
+//The default value for time is 1
+this.size=70;
+//The default value for size is 70
+this.animation="linear";
+//The default value for animation is "linear"
 ```
